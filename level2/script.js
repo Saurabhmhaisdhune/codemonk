@@ -16,7 +16,7 @@ function drawCircles(event) {
   if (mouseX <= canvasWidth / 2) {
     ctx.beginPath();
     ctx.arc(mouseX, mouseY, 30, 0, Math.PI * 2);
-    ctx.strokeStyle = 'red';
+    ctx.strokeStyle = 'black';
     ctx.lineWidth = 2;
     ctx.stroke();
     
@@ -24,7 +24,7 @@ function drawCircles(event) {
     const mirrorX = canvasWidth - mouseX;
     ctx.beginPath();
     ctx.arc(mirrorX, mouseY, 30, 0, Math.PI * 2);
-    ctx.strokeStyle = 'blue';
+    ctx.strokeStyle = 'black';
     ctx.lineWidth = 2;
     ctx.stroke();
   }

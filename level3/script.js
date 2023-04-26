@@ -18,7 +18,7 @@ function drawCircles(event) {
 
   ctx.beginPath();
   ctx.arc(mouseX, mouseY, 30, 0, Math.PI * 2);
-  ctx.strokeStyle = "red";
+  ctx.strokeStyle = "black";
   ctx.lineWidth = 2;
   ctx.stroke();
 
@@ -28,19 +28,19 @@ function drawCircles(event) {
 
   ctx.beginPath();
   ctx.arc(mirrorX, mouseY, 30, 0, Math.PI * 2);
-  ctx.strokeStyle = "blue";
+  ctx.strokeStyle = "black";
   ctx.lineWidth = 2;
   ctx.stroke();
 
   ctx.beginPath();
   ctx.arc(mouseX, mirrorY, 30, 0, Math.PI * 2);
-  ctx.strokeStyle = "green";
+  ctx.strokeStyle = "black";
   ctx.lineWidth = 2;
   ctx.stroke();
 
   ctx.beginPath();
   ctx.arc(mirrorX, mirrorY, 30, 0, Math.PI * 2);
-  ctx.strokeStyle = "purple";
+  ctx.strokeStyle = "black";
   ctx.lineWidth = 2;
   ctx.stroke();
 }
